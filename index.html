@@ -1,0 +1,361 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie App</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<section id="app">
+     
+     
+     <section class="panel panel-left panel-cover">
+     	
+     	<div class="bg-menu">
+     		Menú de Opciones
+     	</div>
+     	
+     	<div class="list list-menu">
+			<ul>
+				<li>
+					<a href="/cartelera/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">local_movies</i>
+						</div>
+						<div class="item-inner">
+							Cartelera
+						</div>
+
+					</a>
+			
+				    <li>
+					<li>
+					<a href="/perfil.html" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">person</i>
+						</div>
+						<div class="item-inner">
+							Perfil
+						</div>
+					</a>
+				</li>
+				<li>
+					
+					<a href="/Dulcería/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">fastfood</i>
+						</div>
+						<div class="item-inner">
+							Dulcería
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="/Promociones/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">local_activity</i>
+						</div>
+						<div class="item-inner">
+							Promociones
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="/Mis Peliculas/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">card_giftcard</i>
+						</div>
+						<div class="item-inner">
+							Mis Peliculas
+							
+						</div>
+					</a>
+				</li>
+				
+     
+        </section>
+     
+     <section class="panel panel-right panel-cover">
+     	<h2 class="block-title">Menú Lateral Derecho</h2>
+     </section>
+     
+     
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+             	<div class="right">
+             		<a href="#" class="link panel-open" data-panel=".panel-left">
+             			<span class="material-icons">menu</span>
+             		</a>
+             	</div>
+              	<div class="title">Cinéfilos</div>
+            </div>
+          </nav>
+
+
+          <!-- Scrollable page content -->
+          <article class="page-content">
+				
+				<h3 class="block-title">Hola, Luis</h3>
+	  			
+		  		<div class="block">
+		  			<h2 class="block-title-medium">¿Qué película veremos hoy? Mirá la cartelera: </h2>
+		  		</div>
+			  	
+        		<div class="block">
+        			
+        		
+        			
+        			
+        			<div class="row categoria-enlace">
+        				<article class="col">
+        					<h3 class="block-title no-margin">Populares</h3>
+        				</article>
+        				<article class="col text-align-right">
+        					<a href="/producto/" class="link">Ver todos <span class="material-icons">arrow_forward</span></a>
+        				</article>
+        			</div>
+        			
+        			<section id="home-productos">
+        			
+        				<div class="swiper-container swiper-init" data-speed="400" data-space-between="5" data-slides-per-view="1">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/endgame1.jpg" class="img-fluid">
+											<h2>Avengers: End Game (2019)</h2>
+											<h3>175 min</h3>
+											<h4>After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance.</h4>
+										
+
+										</div>
+										<div class="card-footer">
+											<span>PG-13</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>	
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/ironman.jpg" class="img-fluid">
+											<h2>Iron Man:(2008)</h2>
+											<h3>100 min</h3>
+											<h4>When Tony Stark, an industrialist, is captured, he constructs a high-tech armoured suit to escape. Once he manages to escape, he decides to use his suit to fight against evil forces to save the world.</h4>
+											
+
+										</div>
+										<div class="card-footer">
+											<span>PG-13</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>								
+								
+							</div>
+						</div>
+        				
+        			</section><!-- home-productos -->
+					<section id="home-productos">
+        			
+        				<div class="swiper-container swiper-init" data-speed="400" data-space-between="5" data-slides-per-view="1">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/thor.jpg" class="img-fluid">
+											<h2>Thor: The Dark World (2013)</h2>
+											<h3>97 min</h3>
+											<h4>Thor sets out on a journey to defeat Malekith, the leader of the Dark Elves when he returns to Asgard to retrieve a dangerous weapon and fulfill his desire of destroying the Nine Realms.</h4>
+											
+
+										</div>
+										<div class="card-footer">
+											<span>18+</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>	
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/msmarvel.jpg" class="img-fluid">
+											<h2>Captain Marvel <br>
+												(2019)</h2>										
+											<h3>110 min</h3>
+
+											<h4>Amidst a mission, Vers, a Kree warrior, gets separated from her team and is stranded on Earth. However, her life takes an unusual turn after she teams up with Fury, a S.H.I.E.L.D. agent.</h4>
+
+										</div>
+										<div class="card-footer">
+											<span>PG-13</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>								
+								
+							</div>
+						</div>
+        				
+        			</section><!-- home-productos -->
+					
+        			
+        			<section id="home-productos">
+        			
+        				<div class="swiper-container swiper-init" data-speed="400" data-space-between="5" data-slides-per-view="1">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/spiderman.jpg" class="img-fluid">
+											<h2>Spiderman: Homecoming (2017)</h2>
+											<h3>115 min</h3>
+											<h4>Peter Parker tries to stop the Vulture from selling weapons made with advanced Chitauri technology while trying to balance his life as an ordinary high school student.</h4>
+											
+
+										</div>
+										<div class="card-footer">
+											<span>PG-13</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>	
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/blackpanther.jpg" class="img-fluid">
+											<h2>Black Panther 
+												<br>
+												(2018)</h2>
+											<h3>120 min</h3>
+											<h4>After his father's death, T'Challa returns home to Wakanda to inherit his throne. However, a powerful enemy related to his family threatens to attack his nation.</h4>
+
+										</div>
+										<div class="card-footer">
+											<span>PG-13</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>								
+								
+							</div>
+						</div>
+        				
+        			</section><!-- home-productos -->
+					
+        		</div>
+         
+          </article>
+			
+			<section>
+			
+			<section id="home-productos">
+        			
+        				<div class="swiper-container swiper-init" data-speed="400" data-space-between="5" data-slides-per-view="1">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/spiderman.jpg" class="img-fluid">
+											<h2>Spiderman: Homecoming (2017)</h2>
+											<h3>115 min</h3>
+											<h4>Peter Parker tries to stop the Vulture from selling weapons made with advanced Chitauri technology while trying to balance his life as an ordinary high school student.</h4>
+											
+
+										</div>
+										<div class="card-footer">
+											<span>PG-13</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>	
+								<div class="swiper-slide">
+									
+									<article class="card">
+										<div class="card-content card-content-padding">
+											<img src="img/blackpanther.jpg" class="img-fluid">
+											<h2>Black Panther 
+												<br>
+												(2018)</h2>
+											<h3>120 min</h3>
+											<h4>After his father's death, T'Challa returns home to Wakanda to inherit his throne. However, a powerful enemy related to his family threatens to attack his nation.</h4>
+
+										</div>
+										<div class="card-footer">
+											<span>PG-13</span>
+											<a href="#" class="link"><span class="material-icons">add</span></a>
+										</div>
+									</article>
+									
+								</div>								
+								
+							</div>
+						</div>
+        				
+        			</section><!-- home-productos -->
+			
+			
+			
+			
+			</section>
+			
+        </section><!-- page -->
+		  
+      	<div class="toolbar tabbar tabbar-labels toolbar-bottom">
+		  <div class="toolbar-inner">
+			<a href="/cartelera/" class="tab-link">
+			  <i class="material-icons">local_movies</i>
+			  <span class="tabbar-label">Cartelera</span>
+			</a>
+			<a href="#tab2" class="tab-link">
+			  <i class="material-icons">fastfood</i>
+			  <span class="tabbar-label">Dulcería</span>
+			</a>
+			<a href="#tab2" class="tab-link">
+			  <i class="material-icons">person</i>
+			  <span class="tabbar-label">Perfil</span>
+			</a>
+		  </div>
+		</div>
+
+      </div><!-- view -->
+		
+    </section>
+	
+	
+	
+	
+	
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>s
+	<script src="js/my-app.js"></script>
+	
+</body>
+</html>
